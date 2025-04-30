@@ -1,15 +1,33 @@
-# pizzashop-api
+# 🍕 Pizza Shop API
 
-To install dependencies:
+Bem-vindo ao repositório do **Pizza Shop API**! Aqui você encontrará as instruções para rodar o servidor, a aplicação e realizar as configurações necessárias.
 
+---
+
+### 1. Rodar o Servidor
+**Inicie o Docker**  
+No terminal, execute o comando abaixo para iniciar o serviço do Docker:
 ```bash
-bun install
+sudo systemctl start docker.service
 ```
 
-To run:
-
+**Suba o container da API**  
+Com o Docker rodando, navegue até a pasta `api` e inicie o container com o comando:
 ```bash
-bun run index.ts
+sudo docker-compose up -d
 ```
 
-This project was created using `bun init` in bun v1.2.7. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+**Inicie o servidor de desenvolvimento**  
+Rodar o comando para iniciar o banco de dados e o servidor:
+```bash
+bun migrate
+bun seed
+bun dev
+```
+
+ **Parar os serviços do Docker**  
+Para encerrar os serviços do Docker, utilize os comandos abaixo:
+```bash
+sudo systemctl stop docker.service
+sudo systemctl stop docker.socket
+```
