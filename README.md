@@ -3,8 +3,13 @@
 Bem-vindo ao repositório do **Pizza Shop API**! Aqui você encontrará as instruções para rodar o servidor, a aplicação e realizar as configurações necessárias.
 
 ---
+### 1. Tecnologias utilizadas
+- Elysia
+- Drizzle
 
-### 1. Rodar o Servidor
+---
+
+### 2. Rodar o Servidor
 **Inicie o Docker**  
 No terminal, execute o comando abaixo para iniciar o serviço do Docker:
 ```bash
