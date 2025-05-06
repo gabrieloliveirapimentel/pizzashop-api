@@ -1,27 +1,27 @@
 {
-  "version": "7",
-  "dialect": "postgresql",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "7",
-      "when": 1746023076997,
-      "tag": "0000_wooden_jane_foster",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1746185113566,
-      "tag": "0001_numerous_human_cannonball",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "7",
-      "when": 1746185246397,
-      "tag": "0002_silly_hiroim",
-      "breakpoints": true
-    }
-  ]
+	"version": "7",
+	"dialect": "postgresql",
+	"entries": [
+		{
+			"idx": 0,
+			"version": "7",
+			"when": 1746023076997,
+			"tag": "0000_wooden_jane_foster",
+			"breakpoints": true
+		},
+		{
+			"idx": 1,
+			"version": "7",
+			"when": 1746185113566,
+			"tag": "0001_numerous_human_cannonball",
+			"breakpoints": true
+		},
+		{
+			"idx": 2,
+			"version": "7",
+			"when": 1746185246397,
+			"tag": "0002_silly_hiroim",
+			"breakpoints": true
+		}
+	]
 }
