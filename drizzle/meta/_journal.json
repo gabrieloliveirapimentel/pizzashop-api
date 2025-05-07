@@ -22,6 +22,13 @@
 			"when": 1746185246397,
 			"tag": "0002_silly_hiroim",
 			"breakpoints": true
+		},
+		{
+			"idx": 3,
+			"version": "7",
+			"when": 1746620046508,
+			"tag": "0003_loose_wong",
+			"breakpoints": true
 		}
 	]
 }
